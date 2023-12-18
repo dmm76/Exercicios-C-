@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+#include <locale>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL,"");
+	
+	using namespace std;
+	string name;
+	cout << "Ola meu nome é Douglas!\n";
+	cout << "Como posso te ajudar ?\n";
+	getline(cin, name);
+	cout << "Você escreveu: " << name << "!\n";
+	cout<< "Infelizmente nao poderei te ajudar";
+	
+	
+	return 0;
+}
